@@ -8,8 +8,7 @@ import ImageWithFallback from '../components/ImageWithFallback';
 const allMenuItems = [
   ...Object.entries({
     appetizers: [
-      { name: 'Spring Rolls', price: 300, image: 'https://images.unsplash.com/photo-1544037803-b11e6516adf2?auto=format&fit=crop&w=800&q=60' },
-      { name: 'Garlic Bread', price: 400, image: 'https://images.unsplash.com/photo-1619535860434-cf9b2bdc0aba?auto=format&fit=crop&w=800&q=60' },
+    
       { name: 'Mini Tacos', price: 600, image: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=800&q=60' },
       { name: 'Hummus Platter', price: 750, image: 'https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=800&q=60' },
       { name: 'Caprese Skewers', price: 700, image: 'https://images.unsplash.com/photo-1546039907-7fa05f864c02?auto=format&fit=crop&w=800&q=60' },
