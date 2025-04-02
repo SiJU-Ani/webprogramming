@@ -248,7 +248,7 @@ const Home = () => {
               <div style={styles.underline}></div>
             </h1>
             <p style={styles.description}>
-              Experience the finest French cuisine in an elegant atmosphere. Our expert chefs craft each dish with passion and precision, using only the freshest ingredients.
+              23BDS1003 aleena yogindar,23BAI1442 Shreyansh Srivastava, 23BDS1010 Suryansh behal, 23BDS1149 Aakrisht yadav, course: web programmingExperience the finest French cuisine in an elegant atmosphere. Our expert chefs craft each dish with passion and precision, using only the freshest ingredients.
             </p>
             <div style={styles.ctaButtons}>
               <Link 
