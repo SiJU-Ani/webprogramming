@@ -1,0 +1,367 @@
+.billing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.billing-container h2 {
+  color: #0A3E42;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.billing-container h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #FFD700;
+  margin: 10px auto;
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 2rem 0;
+  color: #0A3E42;
+}
+
+.empty-cart h3 {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.empty-cart p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.billing-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.cart-items {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cart-items h3, .billing-details h3 {
+  color: #0A3E42;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.cart-item {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.item-info h4 {
+  font-size: 1.1rem;
+  color: #0A3E42;
+  margin: 0;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #0A3E42;
+  margin: 0;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0.25rem;
+}
+
+.quantity-controls button {
+  background: white;
+  color: #0A3E42;
+  border: 1px solid #0A3E42;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quantity-controls button:hover {
+  background: #0A3E42;
+  color: white;
+}
+
+.quantity-controls span {
+  font-weight: bold;
+  margin: 0 0.5rem;
+  width: 20px;
+  text-align: center;
+}
+
+.item-total {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0A3E42;
+}
+
+.remove-btn {
+  color: #ff4444;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.remove-btn:hover {
+  color: #cc0000;
+  transform: scale(1.1);
+}
+
+.clear-cart-btn {
+  background: #f8f9fa;
+  color: #0A3E42;
+  border: 1px solid #0A3E42;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.clear-cart-btn:hover {
+  background: #0A3E42;
+  color: white;
+}
+
+.billing-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.coupon-section, .calculations, .payment-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.coupon-input {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.coupon-input input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  font-size: 1rem;
+}
+
+.coupon-input button {
+  background: #0A3E42;
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.coupon-input button:hover {
+  background: #0d4d52;
+}
+
+.applied-coupon {
+  background: #f0fff4;
+  border: 1px solid #2ecc71;
+  color: #2ecc71;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.applied-coupon span {
+  font-weight: bold;
+}
+
+.coupon-hint {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.calculation-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.calculation-row.discount {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.calculation-row.total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0A3E42;
+  border-top: 2px solid #f0f0f0;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.tip-input {
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 0 0.5rem;
+}
+
+.tip-input span {
+  color: #0A3E42;
+  font-weight: bold;
+}
+
+.tip-input input {
+  width: 60px;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.checkout-btn {
+  background: #FFD700;
+  color: #0A3E42;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+
+.checkout-btn:hover {
+  background: #ffd900;
+  transform: translateY(-2px);
+}
+
+.payment-methods {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.payment-methods p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.payment-icons img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.contact-info {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.contact-info h3 {
+  color: #0A3E42;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.phone-numbers, .billing-staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-numbers p, .billing-staff p {
+  background: #f8f9fa;
+  color: #0A3E42;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.phone-numbers p:hover, .billing-staff p:hover {
+  background: #0A3E42;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .billing-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
