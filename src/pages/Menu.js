@@ -14,11 +14,10 @@ const allMenuItems = [
       { name: 'Caprese Skewers', price: 700, image: 'https://images.unsplash.com/photo-1546039907-7fa05f864c02?auto=format&fit=crop&w=800&q=60' },
       { name: 'Spinach Dip', price: 700, image: 'https://images.unsplash.com/photo-1576506295286-5cda18df43e7?auto=format&fit=crop&w=800&q=60' },
       { name: 'Onion Rings', price: 600, image: 'https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=800&q=60' },
-      { name: 'Stuffed Jalapeños', price: 800, image: 'https://images.unsplash.com/photo-1594149929911-78975a43d4f5?auto=format&fit=crop&w=800&q=60' },
       { name: 'Crab Cakes', price: 1100, image: 'https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?auto=format&fit=crop&w=800&q=60' }
     ],
     mainCourse: [
-      { name: 'Grilled Salmon', price: 1600, image: 'https://images.unsplash.com/photo-1567189022371-cc754891cdc9?auto=format&fit=crop&w=800&q=60' },
+    
       { name: 'Spaghetti Carbonara', price: 1300, image: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=60' },
       { name: 'Chicken Parmesan', price: 1400, image: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&w=800&q=60' },
       { name: 'Vegetarian Lasagna', price: 1200, image: 'https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=800&q=60' },
