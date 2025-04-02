@@ -37,9 +37,8 @@ const allMenuItems = [
       { name: 'Soda', price: 200, image: 'https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?auto=format&fit=crop&w=800&q=60' },
       { name: 'Milkshake', price: 200, image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=60' },
       { name: 'Tea', price: 50, image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=800&q=60' },
-      { name: 'Hot Chocolate', price: 300, image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=60' },
-      { name: 'Protein Shake', price: 400, image: 'https://images.unsplash.com/photo-1626078293023-97c7980e31ca?auto=format&fit=crop&w=800&q=60' },
-      { name: 'Coconut Water', price: 300, image: 'https://images.unsplash.com/photo-1546445317-29f4545e9d53?auto=format&fit=crop&w=800&q=60' }
+      { name: 'Hot Chocolate', price: 300, image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=60' }
+      
     ]
   }).map(([category, items]) => 
     items.map(item => ({
